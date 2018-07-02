@@ -11,3 +11,8 @@ az acr build-task create \
     --git-access-token $GIT_PAT
 
 az acr build-task run --registry tomasacrdemo --name appautobuild
+
+az acr build-task logs --registry tomasacrdemo
+
+# Test automated build when new code is commited
+# Test automated build when base image is changed
