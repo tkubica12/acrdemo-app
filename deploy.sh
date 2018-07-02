@@ -5,7 +5,7 @@
 az acr build-task create \
     --registry tomasacrdemo \
     --name appautobuild \
-    --image base:{{.Build.ID}} \
+    --image app:{{.Build.ID}} \
     --context https://github.com/tkubica12/acrdemo-app.git \
     --branch master \
     --git-access-token $GIT_PAT
@@ -16,3 +16,5 @@ az acr build-task logs --registry tomasacrdemo
 
 # Test automated build when new code is commited
 # Test automated build when base image is changed
+
+az acr build-task list-builds --registry tomasacrdemo -o table
