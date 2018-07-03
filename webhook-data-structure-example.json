@@ -1,0 +1,19 @@
+{
+    "id": "0df7389b-8905-498f-989d-9f80568b9b71",
+    "timestamp": "2018-07-02T18:35:07.571430398Z",
+    "action": "push",
+    "target": {
+        "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+        "size": 1579,
+        "digest": "sha256:bcd0588795040673a589dea695b5902ffb9f83c2338efdbaeadefec4d935c794",
+        "length": 1579,
+        "repository": "base",
+        "tag": "flask"
+    },
+    "request": {
+        "id": "67a46a97-cec3-4200-adcf-0b39e366db64",
+        "host": "tomasacrdemo.azurecr.io",
+        "method": "PUT",
+        "useragent": "docker/18.03.1-ce go/go1.9.5 git-commit/9ee9f40 kernel/4.13.0-38-generic os/linux arch/amd64 UpstreamClient(Docker-Client/17.12.0-ce \\(linux\\))"
+    }
+}

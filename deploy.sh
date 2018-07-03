@@ -18,3 +18,10 @@ az acr build-task logs --registry tomasacrdemo
 # Test automated build when base image is changed
 
 az acr build-task list-builds --registry tomasacrdemo -o table
+BUILD ID    TASK           PLATFORM    STATUS     TRIGGER       STARTED               DURATION
+----------  -------------  ----------  ---------  ------------  --------------------  ----------
+abh         appautobuild   Linux       Succeeded  Image Update  2018-07-02T13:57:57Z  00:01:05
+abg                        Linux       Succeeded  Manual        2018-07-02T13:57:16Z  00:00:40
+abf         appautobuild   Linux       Succeeded  Git Commit    2018-07-02T13:55:05Z  00:00:50
+abe         appautobuild   Linux       Succeeded  Manual        2018-07-02T13:53:02Z  00:00:50
+abd                        Linux       Succeeded  Manual        2018-07-02T13:50:39Z  00:00:55
